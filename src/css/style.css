@@ -1,0 +1,390 @@
+.area-btn.active {
+  background-color: #059669;
+  color: #ffffff;
+}
+
+.area-btn.active:hover {
+  background-color: #047857;
+}
+
+.nav-link.active {
+  background-color: #f0fdf4;
+  color: #047857;
+}
+
+
+.category-card[data-category-id="beef"] {
+  background-color: #fef2f2;
+  border-color: #fca5a5;
+}
+
+.category-card[data-category-id="beef"]:hover {
+  border-color: #f87171;
+}
+
+.category-card[data-category-id="beef"] .category-icon-wrapper {
+  background-color: #ef4444;
+}
+
+.category-card[data-category-id="chicken"] {
+  background-color: #fffbeb;
+  border-color: #fde68a;
+}
+
+.category-card[data-category-id="chicken"]:hover {
+  border-color: #fbbf24;
+}
+
+.category-card[data-category-id="chicken"] .category-icon-wrapper {
+  background-color: #f59e0b;
+}
+
+.category-card[data-category-id="dessert"] {
+  background-color: #fdf2f8;
+  border-color: #fbcfe8;
+}
+
+.category-card[data-category-id="dessert"]:hover {
+  border-color: #f472b6;
+}
+
+.category-card[data-category-id="dessert"] .category-icon-wrapper {
+  background-color: #ec4899;
+}
+
+.category-card[data-category-id="lamb"] {
+  background-color: #fffaf0;
+  border-color: #fed7aa;
+}
+
+.category-card[data-category-id="lamb"]:hover {
+  border-color: #fb923c;
+}
+
+.category-card[data-category-id="lamb"] .category-icon-wrapper {
+  background-color: #f97316;
+}
+
+.category-card[data-category-id="miscellaneous"] {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.category-card[data-category-id="miscellaneous"]:hover {
+  border-color: #94a3b8;
+}
+
+.category-card[data-category-id="miscellaneous"] .category-icon-wrapper {
+  background-color: #64748b;
+}
+
+.category-card[data-category-id="pasta"] {
+  background-color: #fffbeb;
+  border-color: #fef08a;
+}
+
+.category-card[data-category-id="pasta"]:hover {
+  border-color: #facc15;
+}
+
+.category-card[data-category-id="pasta"] .category-icon-wrapper {
+  background-color: #eab308;
+}
+
+.category-card[data-category-id="pork"] {
+  background-color: #fef2f2;
+  border-color: #fecdd3;
+}
+
+.category-card[data-category-id="pork"]:hover {
+  border-color: #fb7185;
+}
+
+.category-card[data-category-id="pork"] .category-icon-wrapper {
+  background-color: #f43f5e;
+}
+
+.category-card[data-category-id="seafood"] {
+  background-color: #f0f9ff;
+  border-color: #bae6fd;
+}
+
+.category-card[data-category-id="seafood"]:hover {
+  border-color: #38bdf8;
+}
+
+.category-card[data-category-id="seafood"] .category-icon-wrapper {
+  background-color: #0ea5e9;
+}
+
+.category-card[data-category-id="side"] {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.category-card[data-category-id="side"]:hover {
+  border-color: #4ade80;
+}
+
+.category-card[data-category-id="side"] .category-icon-wrapper {
+  background-color: #22c55e;
+}
+
+.category-card[data-category-id="starter"] {
+  background-color: #ecfeff;
+  border-color: #a5f3fc;
+}
+
+.category-card[data-category-id="starter"]:hover {
+  border-color: #22d3ee;
+}
+
+.category-card[data-category-id="starter"] .category-icon-wrapper {
+  background-color: #06b6d4;
+}
+
+.category-card[data-category-id="vegan"] {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.category-card[data-category-id="vegan"]:hover {
+  border-color: #4ade80;
+}
+
+.category-card[data-category-id="vegan"] .category-icon-wrapper {
+  background-color: #22c55e;
+}
+
+.category-card[data-category-id="vegetarian"] {
+  background-color: #f7fee7;
+  border-color: #d9f99d;
+}
+
+.category-card[data-category-id="vegetarian"]:hover {
+  border-color: #a3e635;
+}
+
+.category-card[data-category-id="vegetarian"] .category-icon-wrapper {
+  background-color: #84cc16;
+}
+
+.category-card[data-category-id="breakfast"] {
+  background-color: #fffbeb;
+  border-color: #fde68a;
+}
+
+.category-card[data-category-id="breakfast"]:hover {
+  border-color: #fbbf24;
+}
+
+.category-card[data-category-id="breakfast"] .category-icon-wrapper {
+  background-color: #f59e0b;
+}
+
+.category-card[data-category-id="goat"] {
+  background-color: #fffbeb;
+  border-color: #fde68a;
+}
+
+.category-card[data-category-id="goat"]:hover {
+  border-color: #fbbf24;
+}
+
+.category-card[data-category-id="goat"] .category-icon-wrapper {
+  background-color: #f59e0b;
+}
+
+.category-card:not([data-category-id]) {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.category-card:not([data-category-id]):hover {
+  border-color: #4ade80;
+}
+
+.category-card:not([data-category-id]) .category-icon-wrapper {
+  background-color: #22c55e;
+}
+
+
+
+#log-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.log-modal-box {
+  background: white;
+  border-radius: 20px;
+  padding: 28px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+
+.log-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.log-modal-thumb {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.log-modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 4px 0;
+}
+
+.log-modal-mealname {
+  font-size: 14px;
+  color: #6B7280;
+  margin: 0;
+}
+
+.log-modal-counter-section {
+  margin-bottom: 20px;
+}
+
+.log-modal-counter-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.log-modal-counter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.log-modal-counter-btn {
+  width: 44px;
+  height: 44px;
+  border: 2px solid #E5E7EB;
+  border-radius: 10px;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  color: #374151;
+  flex-shrink: 0;
+}
+
+.log-modal-counter-input {
+  width: 80px;
+  height: 44px;
+  border: 2px solid #E5E7EB;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  outline: none;
+}
+
+.log-modal-preview-box {
+  background: #f0fdf4;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 24px;
+}
+
+.log-modal-preview-label {
+  font-size: 13px;
+  color: #6B7280;
+  margin: 0 0 10px 0;
+}
+
+.log-modal-preview-grid {
+  display: flex;
+  gap: 16px;
+  text-align: center;
+}
+
+.log-modal-preview-item {
+  flex: 1;
+}
+
+.log-modal-preview-val-cal {
+  font-size: 20px;
+  font-weight: 700;
+  color: #059669;
+  margin: 0;
+}
+
+.log-modal-preview-val-prot {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3B82F6;
+  margin: 0;
+}
+
+.log-modal-preview-val-carbs {
+  font-size: 20px;
+  font-weight: 700;
+  color: #F59E0B;
+  margin: 0;
+}
+
+.log-modal-preview-val-fat {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8B5CF6;
+  margin: 0;
+}
+
+.log-modal-preview-sub {
+  font-size: 12px;
+  color: #6B7280;
+  margin: 0;
+}
+
+.log-modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.log-modal-btn-cancel {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #E5E7EB;
+  border-radius: 12px;
+  background: white;
+  font-size: 15px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+}
+
+.log-modal-btn-log {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #2563EB;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
